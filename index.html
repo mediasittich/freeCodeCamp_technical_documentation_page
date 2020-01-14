@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>freeCodeCamp | Technical Documentation Page</title>
+  <!-- Bootstrap CSS File -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row pt-5">
+      <div class="col-lg-3">
+        <nav id="navbar">
+          <header>
+            <h1>Python Introduction</h1>
+          </header>
+          <ul class="list-unstyled">
+            <li><a href="#What_is_Python" class="nav-link">What is Python</a></li>
+            <li><a href="#What_can_Python_do?" class="nav-link">What can Python do?</a></li>
+            <li><a href="#Python_Install" class="nav-link">Python Install</a></li>
+            <li><a href="#Python_Quickstart" class="nav-link">Python Quickstart</a></li>
+            <li><a href="#The_Python_Command_Line" class="nav-link">The Python Command Line</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-lg-9">
+        <main id="main-doc">
+          <section id="What_is_Python" class="main-section">
+            <header>What is Python</header>
+            <article>
+              <p>Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.</p>
+
+              <p>It is used for:</p>
+              <ul>
+                <li>web development (server-side),</li>
+                <li>software development,</li>
+                <li>mathematics,</li>
+                <li>mathematics,</li>
+                <li>system scripting.</li>
+              </ul>
+            </article>
+          </section>
+          <section id="What_can_Python_do?" class="main-section">
+            <header>What can Python do?</header>
+            <article>
+              <ul>
+                <li>Python can be used on a server to create web applications.</li>
+                <li>Python can be used alongside software to create workflows.</li>
+                <li>Python can connect to database systems. It can also read and modify files.</li>
+                <li>Python can be used to handle big data and perform complex mathematics.</li>
+                <li>Python can be used for rapid prototyping, or for production-ready software development.</li>
+              </ul>
+            </article>
+          </section>
+          <section id="Python_Install" class="main-section">
+            <header>Python Install</header>
+            <article>
+              <p>Many PCs and Macs will have python already installed.</p>
+              <p>
+                To check if you have python installed on a Windows PC, search in the start bar for Python or run the
+                following on the Command Line (cmd.exe):
+              </p>
+              <pre><code>C:\Users\Your Name>python --version</code></pre>
+              <p>
+                To check if you have python installed on a Linux or Mac, then on linux open the command line or on Mac
+                open
+                the Terminal and type:
+              </p>
+              <pre><code>python --version</code></pre>
+              <p>
+                If you find that you do not have python installed on your computer, then you can download it for free
+                from
+                the following website: <a href="https://www.python.org/">https://www.python.org/</a>
+              </p>
+            </article>
+          </section>
+          <section id="Python_Quickstart" class="main-section">
+            <header>Python Quickstart</header>
+            <article>
+              <p>
+                Python is an interpreted programming language, this means that as a developer you write Python (.py)
+                files
+                in
+                a text editor and then put those files into the python interpreter to be executed.
+              </p>
+              <p>The way to run a python file is like this on the command line:</p>
+              <pre><code>C:\Users\Your Name>python helloworld.py</code></pre>
+              <p>Where "helloworld.py" is the name of your python file.</p>
+              <p>Let's write our first Python file, called helloworld.py, which can be done in any text editor.</p>
+              <pre><code>
+                helloworld.py
+                print("Hello, World!")
+              </code></pre>
+              <p>
+                Simple as that. Save your file. Open your command line, navigate to the directory where you saved your
+                file,
+                and run:
+              </p>
+              <pre><code>C:\Users\Your Name>python helloworld.py</code></pre>
+              <p>The output should read:</p>
+              <pre><code>Hello, World!</code></pre>
+              <p>Congratulations, you have written and executed your first Python program.</p>
+            </article>
+          </section>
+          <section id="The_Python_Command_Line" class="main-section">
+            <header>The Python Command Line</header>
+            <article>
+              <p>To test a short amount of code in python sometimes it is quickest and easiest not to write the code in
+                a
+                file. This is made possible because Python can be run as a command line itself.
+              </p>
+              <p>Type the following on the Windows, Mac or Linux command line:</p>
+              <pre><code>C:\Users\Your Name>python</code></pre>
+              <p>Or, if the "python" command did not work, you can try "py":</p>
+              <pre><code>C:\Users\Your Name>py</code></pre>
+              <p>
+                From there you can write any python, including our hello world example from earlier in the tutorial:
+              </p>
+              <pre><code>
+                C:\Users\Your Name>python
+                Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:04:45) [MSC v.1900 32 bit (Intel)] on win32
+                Type "help", "copyright", "credits" or "license" for more information.
+                >>> print("Hello, World!")
+              </code></pre>
+              <p>Which will write "Hello, World!" in the command line:</p>
+              <pre><code>
+                C:\Users\Your Name>python
+                Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:04:45) [MSC v.1900 32 bit (Intel)] on win32
+                Type "help", "copyright", "credits" or "license" for more information.
+                >>> print("Hello, World!")
+                Hello, World!
+              </code></pre>
+              <p>
+                Whenever you are done in the python command line, you can simply type the following to quit the python
+                command
+                line interface:
+              </p>
+              <pre><code>exit()</code></pre>
+            </article>
+          </section>
+        </main>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap & Bootstrap JS Dependencies -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+
+  <!-- freeCodeCamp Test Suite -->
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
